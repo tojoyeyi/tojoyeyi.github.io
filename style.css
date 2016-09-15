@@ -1,6 +1,18 @@
 {
     background-color: lightblue;
 }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
 .center{
     text-align: center;
    }
