@@ -1,12 +1,15 @@
 {
     background-color: lightblue;
 }
+.center{
+    text-align: center;
+   }
 <div class="center">
 h1 {
     color: red;
     text-align: center;
 }
-
+</div>
 p {
     font-family: verdana;
     font-size: 20px;
