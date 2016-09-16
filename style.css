@@ -27,10 +27,11 @@ background: lightblue;
 padding: 20px;
 border-radius: 20px;
 }
-div	  {
+div
+{
     border-radius: 25px;
     background: #73AD21;
-    padding: 20px;
+    padding: 20px; 
     width: 200px;
-    height: 150px;
+    height: 150px; 
 }
