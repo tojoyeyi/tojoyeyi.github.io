@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-<div> 
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+html, body {
+    height: 100%;
 }
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 </div>
 </style>
 </head>
