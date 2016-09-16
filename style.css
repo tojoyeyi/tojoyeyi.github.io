@@ -5,13 +5,11 @@
     text-align: center;
     border: 3px solid green;
 }
-
 h1 {
     text-align: center;
 }
-
 <div class="center">
-h2 {
+body {
     color: red;
     text-align: center;
 }
