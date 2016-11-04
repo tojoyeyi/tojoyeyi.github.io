@@ -1,3 +1,8 @@
+.right {
+    position: absolute;
+    right: 0px;
+}
+
 hr { 
     display: block;
     margin-top: 0.5em;
