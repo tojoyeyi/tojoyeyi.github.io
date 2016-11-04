@@ -1,5 +1,5 @@
 .right {
-    position: absolute;
+    float: right;
     right: 50px;
 }
 
