@@ -20,6 +20,11 @@ body {
   float: right;
 }
 
+.date:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
 .content {
 width: 80%;
 margin: auto;
