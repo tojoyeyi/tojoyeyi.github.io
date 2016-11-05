@@ -37,4 +37,8 @@ h1 { font-family: Palatino, 'palatino Linotype', serif;
   font-size: 32px;
   color: darkolivegreen; 
 }
-  
+
+  h1:hover {
+    text-decoration: underline;
+    color: darkred;
+}
