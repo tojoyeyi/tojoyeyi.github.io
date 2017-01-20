@@ -1,46 +1,332 @@
-.image-right {
-    float: right;
-    }
 
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
+
+
 body {
-  background-color: 5f5f5f;
-  font: 16px Helvetica, Sans-Serif;
-    background-image: url"http://feelgrafix.com/data/background/background-9.jpg"
+  background-color: #673AB7;
+  padding: 5px;
+  margin: 20px;
+  border: 10px solid black;
+    border-bottom: none;
+}
+.info {
+  display: block;
+  width: 98%;
+  height: 50px;
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+p.tab1 {
+  display: block;
+  float: left;
+  width: 33%;
+  background-color: yellow;
+  padding: 0px;
+  text-align: center;
+  height: 100%;
+  margin: 0px 1px;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.image-about-nav {
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 5px 0;
+}
+
+p.image-about-nav-item {
+    display: block;
+    float: left;
+    width: 33%;
+    background-color: #36d4d3;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 0.5px;
+}
+
+.image-about-body {
+    float: left;
+}
+
+.image-about-body-image {
+    width: 30%;
+    float: left;
+}
+
+.image-about-body-descriptions {
+    width: 70%;
+    height: 200px;
+    float: left;
 }
 
 
-.date{
-  float: right;
+
+////////////////
+
+
+
+.image-about-nav {
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 5px 0;
 }
 
-.date:hover {
-    text-decoration: underline;
-    color: darkred;
+p.image-about-nav-item {
+    display: block;
+    float: left;
+    width: 49.86%;
+    background-color: #36d4d3;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 0.5px;
 }
 
-.content {
-width: 80%;
-margin: auto;
-background: lightblue;
-padding: 20px;
-border-radius: 20px;
+.image-about-body {
+    float: left;
+    height: 200px;
 }
 
-h1 { font-family: Palatino, 'palatino Linotype', serif;
-  font-size: 32px;
-  color: darkolivegreen; 
+.image-about-body-image {
+    width: 30%;
+    float: left;
 }
 
-  h1:hover {
-    text-decoration: underline;
-    color: darkred;
+.image-about-body-description {
+    width: 70%;
+    display: block;
+    height: 100%;
+    float: left;
+    background-color: #eae1e1;
+}
+
+
+/*=== I'm going to organize from here on ===*/
+
+/*========== Template ==========*/
+
+
+
+/*===== Template END =====*/
+
+
+/*========== Section with Picture ==========*/
+
+img.my-img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    display: block;
+    margin: 0px auto;
+}
+
+p.image-about-nav-item-description-text {
+    display: block;
+    width: 60%;
+    margin: 4.85% auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*===== Section with Picture END =====*/
+
+/*========== Previous Jobs ==========*/
+
+section.past-jobs {
+    width: 100%;
+    float: left;
+}
+div.job-title-container{
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+
+p.company-name {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  float: left;
+  background-color: #03A9F4;
+  margin: 5px 0px;
+
+}
+
+div.job-title-employment-dates{
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    float: left;
+    border-radius: 20px;
+}
+p.job-title{
+    background-color: #00BCD4;
+    display: block;
+    float: left;
+    width: 48.5%;
+    height: 80%;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+p.employment-dates{
+    background-color: #00BCD4;
+    display: block;
+    float: left;
+    width: 48.5%;
+    height: 80%;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+ul.job-responsibilities{
+    display: none;
+    width: 100%;
+    height: 150px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+li.responsibility{
+    background-color: #00BCD4;
+    list-style: none;
+    height: 30%;
+    line-height: 45px;
+    margin: 4.5px 0px;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+/*===== Previous Jobs END =====*/
+
+
+
+/*========== education-references ==========*/
+
+section.education-references {
+    width: 100%;
+    float: left;
+}
+
+div.er{
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin: 10px 0px;
+}
+
+p.er-heading{
+  width: 100%;
+  height: 50%;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 0px;
+  border-radius: 20px;
+  background-color: #00BCD4;
+}
+
+p.er-content{
+  width: 50%;
+  height: 50%;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 2.5px 26%;
+  border-radius: 20px;
+  background-color: #00BCD4;
+}
+
+
+/*===== education-references END =====*/
+
+
+
+/*========== Comment Box ==========*/
+
+section.text-box-list{
+    width: 100%;
+    float: left;
+    display: block;
+}
+textarea.text-area{
+  width: 100%;
+  height: 100px;
+  text-align:center;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8BC34A;
+}
+button.fake-buttom{
+  width: 100%;
+  height: 35px;
+  color: purple;
+  background-color: green;
+  border: green;
+  border-radius: 20px;
+  margin: 2.5px 0px;
+}
+
+ul.half-bottom {
+  display: block;
+  width: 90%;
+  float: left;
+  background-color: #00BCD4;
+  margin-left: 2%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+li {
+    display: block;
+    list-style: none;
+    width: 94%;
+    margin: 2.5px 0px;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 20px;
+}
+/*===== Comment Box END =====*/
+
+
+
+p.contact{
+  display: block;
+  background-color: purple;
+  border-radius: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.image-about-body-contact {
+    width: 69%;
+    display: none;
+    height: 100%;
+    float: left;
+    background-color: #eae1e1;
+    margin-left:;
 }
